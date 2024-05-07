@@ -13,7 +13,8 @@
     }
     User {
         bigserial Id PK
-        varchar(32) Name UK
+        varchar(32) Name
+        varchar(100) EmailAddress UK
     }
     ElementCombo {
         bigserial Element1 FK
